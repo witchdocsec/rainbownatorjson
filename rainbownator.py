@@ -26,8 +26,8 @@ def crack(hashin, algo, passcomp):
 			hashtype=hashlib.md5
 		case "sha1":
 			hashtype=hashlib.sha1
-		case "sha244":
-			hashtype=hashlib.sha244
+		case "sha224":
+			hashtype=hashlib.sha224
 		case "sha256":
 			hashtype=hashlib.sha256
 		case "sha384":
